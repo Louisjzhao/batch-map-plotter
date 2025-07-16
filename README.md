@@ -7,7 +7,6 @@
 
 It supports both **numeric** and **categorical** variables, **automatic binning**, **customized color maps**, **text labeling**, and **base map integration** — with full support for both **point** and **polygon geometries**. Ideal for data analysts, geospatial researchers, and anyone seeking a production-ready geographic visualization workflow.
 
----
 
 
 
@@ -223,5 +222,4 @@ MIT License
 
 ---
 
----
 
