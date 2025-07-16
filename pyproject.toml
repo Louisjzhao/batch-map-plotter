@@ -1,0 +1,36 @@
+
+[build-system]
+requires = ["setuptools>=42", "wheel"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "batch-map-plotter"
+version = "0.1.0"
+description = "A flexible tool for batch plotting of thematic maps using GeoPandas and Matplotlib."
+readme = "README.md"
+authors = [{ name = "Luyi Zhao", email = "tysxchina@163.com" }]
+license = { text = "MIT" }
+keywords = [
+  "geopandas",
+  "matplotlib",
+  "thematic-maps",
+  "geospatial",
+  "choropleth",
+  "map-visualization",
+  "batch-plotting",
+  "cartography",
+  "data-visualization"
+]
+classifiers = [
+  "Programming Language :: Python :: 3",
+  "License :: OSI Approved :: MIT License",
+  "Operating System :: OS Independent",
+  "Topic :: Scientific/Engineering :: Visualization",
+  "Intended Audience :: Science/Research"
+]
+
+[project.urls]
+Homepage = "https://github.com/Louisjzhao/batch-map-plotter"
+
+[tool.setuptools.packages.find]
+where = ["batch_map_plotter"]

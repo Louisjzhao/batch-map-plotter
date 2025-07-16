@@ -1,0 +1,7 @@
+geopandas          # for geospatial data operations
+pandas             # for DataFrame manipulations
+matplotlib         # for plotting
+numpy              # for numerical operations
+shapely            # for geometric calculations
+mapclassify        # for binning strategies (natural breaks etc.)
+contextily         # for adding basemaps (OpenStreetMap, CartoDB etc.)
